@@ -1,3 +1,26 @@
-.PrimaryColor {
-    color: #4B9DCD;
+:root {
+    --primary-color: #4B9DCD;
+    --secondary-color: #4B9DCD;
+    --tertiary-color: #d2e9f7;
+    --quaternary-color: #f5bf22;
+    --quinary-color: #4B9DCD;
+}
+
+.Primary {
+    color: var(--primary-color);
+}
+.PrimaryTopBorder {
+    border-top: 4px solid var(--primary-color);
+}
+.PrimaryBottomBorder {
+    border-bottom: 4px solid var(--primary-color);
+}
+.TertiaryBackground {
+    background-color: var(--tertiary-color);
+}
+.Quatre {
+    color: var(--quaternary-color);
+}
+.QuatreBackgrond {
+    background-color: var(--quaternary-color);
 }
